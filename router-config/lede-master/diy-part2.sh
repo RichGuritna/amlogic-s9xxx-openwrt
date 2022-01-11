@@ -42,7 +42,7 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 svn co https://github.com/hubutui/p7zip-lede/trunk package/p7zip
 
 # add helmiwrt
-# git clone https://github.com/helmiau/helmiwrt-packages.git package/helmiwrt-packages
+# git clone --depth=1 https://github.com/helmiau/helmiwrt-packages
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
